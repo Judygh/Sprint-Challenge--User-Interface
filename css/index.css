@@ -73,37 +73,52 @@ p {
 nav{
     display: flex;
     justify-content: space-evenly;
+    align-items:flex-start;
     width:80%;
     background: white;
     align-items: center;
+    /* flex-wrap: wrap; */
+    margin: 20px;
+
 }
     
 nav a {
         color: black;
         text-decoration: none;
  }  
-.logo{
-    display: flex;
-    justify-content: flex-start;
-}
+
 .main-intro{
     background-color: white;
 	text-align: center;
-	width: 130px;
-	margin: 15px;
+    width: 130px;
+    /* padding: 20px; */
+	margin: 30px;
 }
-.first-row{
+.first-row {
     width: 100%;
     display: flex;
     flex-direction: row;
     margin: 0 auto;
 }
-.strategy, .work{
+.strategy, .work {
     border:1px;
     background-color: white;
     margin: 10px;
     text-align: left;
 }
+.second-row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+.place, .collabration{
+    border:1px;
+    background-color: white;
+    margin: 10px;
+    text-align: left;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
