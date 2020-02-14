@@ -16,7 +16,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
+	/* margin: 0; */
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -159,6 +159,10 @@ nav a {
     align-items: center;
     justify-content: center;
 }
+/* .box1{
+    color:teal;
+    background-color:teal;
+} */
 
 .bottom-content {
     display: flex;
